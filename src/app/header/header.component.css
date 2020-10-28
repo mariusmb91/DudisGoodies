@@ -1,0 +1,14 @@
+.header {
+    background-color: #fbc3cb;
+    padding: 3px 20px;
+    margin:0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-facebook-f{
+    padding-right:10px;
+}
