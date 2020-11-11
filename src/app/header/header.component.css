@@ -1,14 +1,59 @@
-.header {
-    background-color: #fbc3cb;
+.header1 {
+    background-color: white;
     padding: 3px 20px;
     margin:0px;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: cursive;
+    color: 	black;
     display: flex;
     justify-content: space-between;
 }
 
 .fa-facebook-f{
     padding-right:10px;
+}
+
+.fa:before {
+    color: 	#fbc3cb;
+}
+
+.header2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: #c9b7ba;
+    padding: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 10px -2px gray;
+}
+
+.logoTitle{
+    font-style: italic;
+    font-size: 40px;
+}
+
+.headerContainer {
+    position: relative;
+}
+
+.logoContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hackButton {
+    width: 120px;
+}
+
+.menuButton {
+    background-color: transparent;
+    border: none;
+    color: 	#fbc3cb;
+    font-size: 20px;
 }
